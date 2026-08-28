@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Lawal Toyib." />
+    <title>Contact — Lawal Toyib</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="/index.html" class="brand">
+          <span class="brand__mark">LT</span>
+          <span class="brand__name">Lawal Toyib</span>
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </label>
+        <ul class="nav-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/education.html">Education</a></li>
+          <li><a href="/skills.html">Skills</a></li>
+          <li><a href="/certificates.html">Certificates</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/hobbies.html">Hobbies</a></li>
+          <li><a href="/cv.html">CV</a></li>
+          <li><a href="/contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <p class="eyebrow">Let's connect</p>
+          <hr class="divider" />
+          <h1>Contact</h1>
+          <p>Feel free to reach out through any of the channels below or send a message directly.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="card-grid" style="grid-template-columns:1fr 1fr;gap:2.5rem;align-items:start;">
+            <!-- Contact Info -->
+            <div>
+              <h2 class="section-title">Contact Information</h2>
+              <hr class="divider" />
+              <div class="info-list" style="grid-template-columns:1fr;">
+                <div class="info-item">
+                  <div class="info-item__icon">📱</div>
+                  <div>
+                    <div class="info-item__label">Phone</div>
+                    <div class="info-item__value">08162555047</div>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-item__icon">✉️</div>
+                  <div>
+                    <div class="info-item__label">Email</div>
+                    <div class="info-item__value">lawaltoyib77@gmail.com</div>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-item__icon">📍</div>
+                  <div>
+                    <div class="info-item__label">State of Origin</div>
+                    <div class="info-item__value">Kwara State</div>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-item__icon">🏠</div>
+                  <div>
+                    <div class="info-item__label">Address</div>
+                    <div class="info-item__value">Jabiri Funtua, Katsina State</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div>
+              <h2 class="section-title">Send a Message</h2>
+              <hr class="divider" />
+              <form class="contact-form" action="mailto:lawaltoyib77@gmail.com" method="post" enctype="text/plain">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" placeholder="Message subject" />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn--dark" style="width:100%;">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h3>Lawal Toyib</h3>
+            <p>Final-Year Computer Engineering Student · Ahmadu Bello University, Zaria.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/education.html">Education</a></li>
+              <li><a href="/skills.html">Skills</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>More</h4>
+            <ul>
+              <li><a href="/certificates.html">Certificates</a></li>
+              <li><a href="/projects.html">Projects</a></li>
+              <li><a href="/cv.html">CV</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Lawal Toyib. All rights reserved.</p>
+          <p class="mono">COEN 554 — Question One</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

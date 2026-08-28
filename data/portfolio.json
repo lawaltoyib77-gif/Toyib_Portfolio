@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "name": "Lawal Toyib",
+    "age": 26,
+    "phone": "08162555047",
+    "email": "lawaltoyib77@gmail.com",
+    "stateOfOrigin": "Kwara State",
+    "address": "Jabiri Funtua, Katsina State",
+    "university": "Ahmadu Bello University (ABU), Zaria",
+    "programme": "Computer Engineering",
+    "level": "Final Year"
+  },
+  "education": [
+    {
+      "stage": "Primary",
+      "institution": "Focus International School, Funtua"
+    },
+    {
+      "stage": "Secondary",
+      "institution": "Focus International College, Funtua"
+    },
+    {
+      "stage": "Tertiary",
+      "institution": "Ahmadu Bello University (ABU), Zaria",
+      "detail": "Computer Engineering — Final Year"
+    }
+  ],
+  "certificates": [
+    { "title": "SSCE Certificate", "category": "Academic" },
+    { "title": "Cisco Networking Essentials", "category": "Networking" },
+    { "title": "Cisco Introduction to Cybersecurity", "category": "Cybersecurity" },
+    { "title": "Cisco Cybersecurity Essentials", "category": "Cybersecurity" },
+    { "title": "CSS Certificate", "category": "Web Development" },
+    { "title": "HTML Certificate", "category": "Web Development" },
+    { "title": "AWS Certificate in Cloud Computing", "category": "Cloud" },
+    { "title": "MS Word", "category": "Productivity" },
+    { "title": "MS Excel", "category": "Productivity" },
+    { "title": "PowerPoint", "category": "Productivity" },
+    { "title": "Spreadsheet", "category": "Productivity" },
+    { "title": "CorelDRAW Fundamentals", "category": "Design" }
+  ],
+  "skills": [
+    { "name": "HTML5 & CSS3", "level": 85, "category": "Web Development" },
+    { "name": "Computer Networking", "level": 80, "category": "Networking" },
+    { "name": "Cybersecurity", "level": 78, "category": "Security" },
+    { "name": "Cloud Computing (AWS)", "level": 72, "category": "Cloud" },
+    { "name": "Graphic Design (CorelDRAW)", "level": 70, "category": "Design" },
+    { "name": "Microsoft Office Suite", "level": 88, "category": "Productivity" }
+  ],
+  "hobbies": [
+    { "name": "Technology Research", "icon": "💻", "detail": "Exploring new developments in computing and engineering." },
+    { "name": "Coding", "icon": "⌨️", "detail": "Building and experimenting with web and systems projects." },
+    { "name": "Reading", "icon": "📚", "detail": "Studying technical literature and engineering references." },
+    { "name": "Networking", "icon": "🌐", "detail": "Connecting with peers and professionals in the field." }
+  ]
+}
